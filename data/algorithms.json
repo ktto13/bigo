@@ -1,0 +1,248 @@
+{
+  "Bubble Sort": {
+    "best_case": "n",
+    "average_case": "n^2",
+    "worst_case": "n^2",
+    "space": "1"
+  },
+  "Insertion Sort": {
+    "best_case": "n",
+    "average_case": "n^2",
+    "worst_case": "n^2",
+    "space": "1"
+  },
+  "Selection Sort": {
+    "best_case": "n^2",
+    "average_case": "n^2",
+    "worst_case": "n^2",
+    "space": "1"
+  },
+  "Heap Sort": {
+    "best_case": "nlogn",
+    "average_case": "nlogn",
+    "worst_case": "nlogn",
+    "space": "Iterative 1 Recursive logn (in place)"
+  },
+  "Merge Sort": {
+    "best_case": "nlogn",
+    "average_case": "nlogn",
+    "worst_case": "nlogn",
+    "space": "n"
+  },
+  "Quick Sort": {
+    "best_case": "nlogn",
+    "average_case": "nlogn",
+    "worst_case": "n^2",
+    "space": "Omega(logn) O(n)"
+  },
+  "Tree Sort": {
+    "best_case": "nlogn",
+    "average_case": "nlogn",
+    "worst_case": "n^2",
+    "space": "O(n)"
+  },
+  "Counting Sort": {
+    "best_case": "n + k",
+    "average_case": "n + k",
+    "worst_case": "n + k",
+    "space": "n + k (where k is the range of the non-negative key values)"
+  },
+  "Radix Sort": {
+    "best_case": "n * k",
+    "average_case": "n * k",
+    "worst_case": "n * k",
+    "space": "n + k (where n is the number of keys, and k is the key length)"
+  },
+  "Bucket Sort": {
+    "best_case": "n + k",
+    "average_case": "n + (n^2 / k) + k, (n, where k is about equal to n)",
+    "worst_case": "n^2",
+    "space": "n + k (where k is the number of buckets)"
+  },
+  "Linear Search": {
+    "best_case": "1",
+    "average_case": "n",
+    "worst_case": "n",
+    "space": "1"
+  },
+  "Binary Search": {
+    "best_case": "1",
+    "average_case": "logn",
+    "worst_case": "logn",
+    "space": "1"
+  },
+  "Interpolation Search": {
+    "best_case": "1",
+    "average_case": "loglogn",
+    "worst_case": "n",
+    "space": "1"
+  },
+  "Breadth-First Search": {
+    "best_case": "V + E",
+    "average_case": "V + E",
+    "worst_case": "V + E",
+    "space": "V"
+  },
+  "Depth-First Search": {
+    "best_case": "V + E",
+    "average_case": "V + E",
+    "worst_case": "V + E",
+    "space": "V"
+  },
+  "Dijkstra's Algorithm": {
+    "best_case": "(V + E) * logV",
+    "average_case": "(V + E) * logV",
+    "worst_case": "V^2 * logV",
+    "space": "V to V + E (it gets complicated depending on the implementation, the listed is for the priority queue implementation)"
+  },
+  "Bellman-Ford Algorithm": {
+    "best_case": "E",
+    "average_case": "",
+    "worst_case": "V * E",
+    "space": "V"
+  },
+  "Flyod-Warshall Algorithm": {
+    "best_case": "V^3",
+    "average_case": "V^3",
+    "worst_case": "V^3",
+    "space": "V^2"
+  },
+  "Kruskal's Algorithm": {
+    "best_case": "",
+    "average_case": "",
+    "worst_case": "ElogV",
+    "space": ""
+  },
+  "Prim's Algorithm": {
+    "best_case": "ElogV",
+    "average_case": "(V + E) * logV",
+    "worst_case": "(V + E) * logV",
+    "space": "V + E (this implementation is with a priority queue)"
+  },
+  "Topological Sort": {
+    "best_case": "",
+    "average_case": "",
+    "worst_case": "",
+    "space": ""
+  },
+  "A* Algorithm": {
+    "best_case": "",
+    "average_case": "",
+    "worst_case": "",
+    "space": ""
+  },
+  "Fibonacci Sequence (DP)": {
+    "best_case": "",
+    "average_case": "",
+    "worst_case": "",
+    "space": ""
+  },
+  "Longet Common Subsequence (LCS)": {
+    "best_case": "",
+    "average_case": "",
+    "worst_case": "",
+    "space": ""
+  },
+  "Longest Increasing Subsequence (LIS)": {
+    "best_case": "",
+    "average_case": "",
+    "worst_case": "",
+    "space": ""
+  },
+  "Knapsack Problem (0/1 and fractional)": {
+    "best_case": "",
+    "average_case": "",
+    "worst_case": "",
+    "space": ""
+  },
+  "Coin Change Problem": {
+    "best_case": "",
+    "average_case": "",
+    "worst_case": "",
+    "space": ""
+  },
+  "Matrix Chain Multiplication": {
+    "best_case": "",
+    "average_case": "",
+    "worst_case": "",
+    "space": ""
+  },
+  "Edit Distance (Levenshtein Distance)": {
+    "best_case": "",
+    "average_case": "",
+    "worst_case": "",
+    "space": ""
+  },
+  "Kadane's Algorithm (maximum subarray sum)": {
+    "best_case": "",
+    "average_case": "",
+    "worst_case": "",
+    "space": ""
+  },
+  "KMP (Knuth-Morris-Pratt)": {
+    "best_case": "",
+    "average_case": "",
+    "worst_case": "",
+    "space": ""
+  },
+  "Rabin-Karp (string matching using hashing)": {
+    "best_case": "",
+    "average_case": "",
+    "worst_case": "",
+    "space": ""
+  },
+  "Z Algorithm (pattern searching)": {
+    "best_case": "",
+    "average_case": "",
+    "worst_case": "",
+    "space": ""
+  },
+  "Trie-based Algorithms (prefix matching)": {
+    "best_case": "",
+    "average_case": "",
+    "worst_case": "",
+    "space": ""
+  },
+  "Manacher's Algorithm (longest palindromic substring)": {
+    "best_case": "",
+    "average_case": "",
+    "worst_case": "",
+    "space": ""
+  },
+  "Union-Find (Disjoint Set Union)": {
+    "best_case": "",
+    "average_case": "",
+    "worst_case": "",
+    "space": ""
+  },
+  "Binary Exponentiation (fast power calculation)": {
+    "best_case": "",
+    "average_case": "",
+    "worst_case": "",
+    "space": ""
+  },
+  "Segment Tree / Fenwick Tree (BIT)": {
+    "best_case": "",
+    "average_case": "",
+    "worst_case": "",
+    "space": ""
+  },
+  "Fast Fourier Transform (FFT)": {
+    "best_case": "",
+    "average_case": "",
+    "worst_case": "",
+    "space": ""
+  },
+  "Greedy Algorithms (interval scheduling, Huffman coding)": {
+    "best_case": "",
+    "average_case": "",
+    "worst_case": "",
+    "space": ""
+  },
+  "Backtracking Algorithms (N-Queens, Sudoku Solver)": {
+    "best_case": "",
+    "average_case": "",
+    "worst_case": "",
+    "space": ""
+  }
+}
