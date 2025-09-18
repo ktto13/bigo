@@ -24,3 +24,9 @@ target_link_libraries(bigo PRIVATE nlohmann_json::nlohmann_json)
 
 # Optional: include the data folder in runtime
 configure_file(data/algorithms.json data/algorithms.json COPYONLY)
+
+#Executable
+install(TARGETS bigo DESTINATION /usr/local/bin)
+
+#JSON file
+install(FILES data/algorithms.json DESTINATION /usr/local/share/bigo)

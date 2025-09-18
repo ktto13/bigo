@@ -1,6 +1,7 @@
+#include <filesystem>
 #include <iostream>
 #include <fstream>
-#include "json.hpp"
+#include "nlohmann/json.hpp"
 
 int main(int argc, char* argv[]) {
   if(argc < 2) {
@@ -8,9 +9,11 @@ int main(int argc, char* argv[]) {
     return 1;
   }
 
-  std::ifstream file("data/algorithms.json");
-  if(!file.is_open()) {
-    std::cerr << "Could not open algorithms.json" << std::endl;
+  std::filesystem::path jsonPath = "/usr/local/share/bigo/algorithms.json";
+
+  std::ifstream file(jsonPath);
+  if(!file) {
+    std::cerr << "Could not open " << jsonPath << std::endl;
     return 1;
   }
 
